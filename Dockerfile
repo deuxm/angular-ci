@@ -1,4 +1,4 @@
-FROM node:carbon
+FROM node:8:15
 MAINTAINER Arne Bosien
 
 USER root
