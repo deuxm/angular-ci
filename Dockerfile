@@ -10,4 +10,5 @@ RUN apt-get update && apt-get install --no-install-recommends -y google-chrome-s
 # chrome does not like to run as root, so we create a user
 RUN useradd ci --shell /bin/bash --create-home
 
+WORKDIR /home/ci
 USER ci
